@@ -1,0 +1,48 @@
+.smart-form input:enabled,
+.smart-form textarea:enabled,
+.smart-form select:enabled{
+                background: rgba(235, 235, 255, 0.5) !important;             
+                                                                                                               /*255*/
+}
+
+.smart-form input:disabled,
+.smart-form textarea:disabled,
+.smart-form select:disabled{
+                background: rgba(100, 100, 100, 0.5) !important;             
+                                                                                                               /*255*/
+}
+                
+.smart-form input:focus,
+.smart-form textarea:focus,
+.smart-form select:focus { 
+    outline: none !important;;
+    border-color: #9ecaed !important;;
+    box-shadow: 0 0 10px #9ecaed !important;;
+}
+
+.table { background-color: rgba(240, 240, 240, 0.4);
+}
+
+.table thead th{
+	background-color: rgba(190, 190, 190, 0.2);
+}
+
+.New .modal-header{
+	background-color: #3EC529;
+	color:#FFFFFF;
+	border-bottom-width: 0px;
+}
+.Edit .modal-header{
+	background-color: #00F;
+	color:#FFFFFF;
+	border-bottom-width: 0px;
+}
+.Eye .modal-header{
+	background-color: #c79121;
+	color:#FFFFFF;
+	border-bottom-width: 0px;
+}				 
+.modal-footer{
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
